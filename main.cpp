@@ -6,7 +6,7 @@ int main(int argc, char** argv)
 {
 	assert(SDL_Init(SDL_INIT_EVERYTHING) == 0 && "No se pudo iniciar SDL");
 	SDL_Window* Window = SDL_CreateWindow("OpenGL", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 800, 600, 0);
-	assert(Window && "No se creÃ³ la ventana SDL");
+	assert(Window && "No se creó la ventana SDL");
 
 	bool Funciona = true;
 	while (Funciona)
